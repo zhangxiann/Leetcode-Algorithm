@@ -49,6 +49,7 @@ public class Solution1091 {
         queue.add(new Pair<>(0,0));
         int[][] direction=new int[][]{{0,1},{0,-1},{-1,0},{1,0}
                 ,{1,1},{1,-1},{-1,1},{-1,-1}};
+
         int m=grid.length,n=grid[0].length;
         while (!queue.isEmpty()){
             int size= queue.size();
