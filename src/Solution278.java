@@ -10,4 +10,8 @@ public class Solution278 {
         }
         return h;
     }
+
+    private boolean isBadVersion(int mid) {
+        return true;
+    }
 }
